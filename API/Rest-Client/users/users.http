@@ -1,0 +1,10 @@
+GET {{userServiceBaseUrl}}/api/users
+User-Agent: rest-client
+
+{{
+  const assert = require('assert');
+  test("returns correct number users", () => {
+    assert.equal(response.parsedBody.length > 0);
+  });
+}}
+ 

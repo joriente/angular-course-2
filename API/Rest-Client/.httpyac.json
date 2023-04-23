@@ -1,0 +1,15 @@
+{
+  "request": {
+    "https":  {
+      "rejectUnauthorized": false
+     }
+  },
+"environments": {
+    "$shared": {
+        
+    },
+    "local": {
+        "userServiceBaseUrl" : "https://localhost:5001"
+    }
+  }
+}

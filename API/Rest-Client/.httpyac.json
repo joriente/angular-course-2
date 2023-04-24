@@ -9,7 +9,7 @@
         
     },
     "local": {
-        "userServiceBaseUrl" : "https://localhost:5001"
+      "userServiceBaseUrl" : "https://localhost:5001"
     }
   }
 }

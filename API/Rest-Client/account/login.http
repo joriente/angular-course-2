@@ -1,0 +1,14 @@
+POST {{userServiceBaseUrl}}/api/account/login
+User-Agent: rest-client
+Content-Type: application/json
+{
+  "username": "johno",
+  "password": "password"
+}
+
+{{
+  const assert = require('assert');
+  test("returns created user", () => {
+    assert.equal(response.parsedBody.length > 0);
+  });
+}}

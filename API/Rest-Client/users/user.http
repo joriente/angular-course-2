@@ -1,6 +1,6 @@
 GET {{userServiceBaseUrl}}/api/users/2
 User-Agent: rest-client
-
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqb2hubyIsIm5iZiI6MTY4MjI5NDExMiwiZXhwIjoxNjgyODk4OTEyLCJpYXQiOjE2ODIyOTQxMTJ9.o3nkfaut9yn_J6b8H0ml8rrQzeRf4BMUdH9l3wsm2dVp7-zpE05_y2S6RhS7z3Ezsxhn4syF2n3W_IPzxtXz1w
 {{
   const assert = require('assert');
   test("returns correct number users", () => {
